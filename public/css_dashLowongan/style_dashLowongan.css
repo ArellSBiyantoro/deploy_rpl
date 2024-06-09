@@ -1,0 +1,84 @@
+:root {
+    --c-dark: #212529;
+    --c-brand: #ff6000;
+    --c-brand-light: #ff914f;
+    --c-bg-light: #fff6f0;
+    --c-brand-rgb: 255, 96, 0;
+    --body: #727272;
+    --c-box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.08);
+    --transition: all 0.5s ease;
+}
+body {
+    font-family: "Epilogue", sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Sidebar Start */
+.list-group-item {
+    border: none;
+    padding: 20px 30px;
+}
+
+.list-group-item.active {
+    background-color: var(--c-dark);
+    color: var(--c-brand);
+    font-weight: bold;
+    border: none;
+}
+
+.list-group-item .fas {
+    margin-right: 1rem;
+}
+
+.list-group-item:hover {
+    color: var(--c-brand);
+}
+
+.sidebar {
+    height: 100vh;
+    background-color: #fff6f0;
+    border-right: 1px solid #e0e0e0;
+}
+.sidebar a {
+    color: #333;
+    text-decoration: none;
+}
+.sidebar .nav-link {
+    padding: 15px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.text-danger:hover {
+    font-weight: bolder;
+}
+
+/* Sidebar Ends */
+
+.lowongan .list-group-item {
+    padding-left: 12px !important;
+}
+/* Top Bar */
+.company-logo img {
+    margin-right: 1rem;
+}
+.content {
+    padding: 20px;
+}
+.card-body {
+    padding: 10px;
+}
+.btn-primary {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: var(--c-brand);
+    border-color: transparent;
+    font-weight: 600;
+    margin-right: 40px;
+}
+
+.btn-primary:hover {
+    background-color: var(--c-brand-light);
+    border-color: transparent;
+}
+
+/* top-bar End */
